@@ -1,0 +1,64 @@
+@font-face {
+    font-family: TT Norms Tochka Extended;
+    src: url(./font/tt_norms_extended/TT\ Norms\ Tochka\ Extended\ Medium.otf);
+} 
+h1 {
+    margin-top: 82px;
+    margin-bottom: 48px;
+    font-family: Lora;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 90px;
+}
+p {
+    font-family: TT Norms Tochka Extended;
+    src: url(./font/tt_norms_extended/TT\ Norms\ Tochka\ Extended\ Medium.otf);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+.page {
+    width: 100%;
+    max-width: 872px;
+    margin: 0 auto;
+    padding: 0px 64px;
+    background-color: #181818;
+    color: #FFFFFF;
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.header_logo {
+    margin-right: 227px;
+}
+.header_menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-right: 48px;
+    font-family: TT Norms Tochka Extended;
+    src: url(./font/tt_norms_extended/TT\ Norms\ Tochka\ Extended\ Medium.otf)
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.icon-like {margin-right: 32px;}
+.header_lid {
+    width: 100%;
+    max-width: 650px;
+    margin: 0;
+}
+.main_img {
+    margin: 80px 0px 82px 0px;
+}
+.footer_text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
